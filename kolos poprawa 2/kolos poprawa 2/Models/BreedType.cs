@@ -7,7 +7,7 @@ namespace kolos_poprawa_2.Models
 {
     public class BreedType
     {
-        public int idBreedType { get; set; }
+        public int IdBreedType { get; set; }
 
         public string Name { get; set; }
 
