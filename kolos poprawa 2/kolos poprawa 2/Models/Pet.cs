@@ -23,7 +23,7 @@ namespace kolos_poprawa_2.Models
 
         public BreedType BreedType { get; set; }
 
-        public IEnumerable<Volunteer_Pet> Volunteer_Pet { get; set; }
+        public IEnumerable<Volunteer_Pet> Volunteer_Pets { get; set; }
 
     }
 }

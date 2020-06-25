@@ -18,6 +18,8 @@ namespace kolos_poprawa_2.Models
         public string Email { get; set; }
         public DateTime StartingDate { get; set; }
 
+        public IEnumerable<Volunteer_Pet> Volunteer_Pets { get; set; }
+
         public IEnumerable<Volunteer> Volunteers { get; set; }
 
         public Volunteer Supervisor { get; set; }
